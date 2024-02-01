@@ -9,7 +9,7 @@ const Title = () => {
 
             <h2 className='subTitle'>Juegos mas jugados</h2>
             <h3 className='desc'> Que tanto sabes maquina?😎</h3>
-            <div className='intro'> <img className='introimg' src="../../assets/intro.jpg" alt="" /></div>
+            <div className='intro'> <img className='introimg' src="/public/assets/intro.jpg" alt="" /></div>
            
             <h3 className='desc'>Selecciona tu main😎</h3>
         </>
