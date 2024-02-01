@@ -1,20 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&family=Sono:wght@200&display=swap');
 .mainTitle{
     text-align: center;
+    font-family: 'Averia Gruesa Libre', system-ui;
+    font-family: 'Sono', monospace;
     font-size: 24px;
-    text-shadow: 2px 2px 4px #000000;
-    color: yellow;
-
-
+    color: rgb(112, 207, 255);
+    background-color: rgb(13, 13, 15);
+    border-radius: 5px;
+    margin: 7px;
+    padding: 0.1px;
+    border: 1px solid rgb(112, 207, 255);
+    box-shadow: rgb(106, 125, 137) 0px 0px 3px 0.1px;
 }
-.mainTitle h1{
-    margin:0px;
-    padding: 3px;
-}
-
 .subTitle{
     text-align: center;
-    text-shadow: 2px 2px 4px #000000;
-    color: lightblue;
-    margin:0px;
-    padding: 1%;
+    font-family: 'Averia Gruesa Libre', system-ui;
+    font-family: 'Sono', monospace;
+    font-size: 24px;
+    color: rgb(227, 227, 216);
+    margin: 4px;
+    padding: 0.1px;
+   
 }
+.desc{
+    text-align: center;
+    font-family: 'Averia Gruesa Libre', system-ui;
+    font-family: 'Sono', monospace;
+    font-size: 24px;
+    color: rgb(112, 207, 255);
+    margin: 4px;
+    padding: 0.1px;
+}
+.introimg{
+    max-width: 20%;
+    max-height: 20%;
+    margin: 2%;
+    padding: 2%;
+    object-fit: cover;
+    transition: all 500ms;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+    
+

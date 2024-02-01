@@ -1,0 +1,54 @@
+
+.ruletaContainer{
+    position: relative;
+    margin: 10px auto 0;
+    text-align: center;
+    width: 720px;
+    height: 80vh;
+    margin-bottom: 20px;
+}
+
+.ruleta{
+    width: 600px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto 15px;
+}
+
+.flecha{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100px;
+    bottom: 660px;
+}
+
+.flecha img{
+    width: 100px;
+    height: auto;
+}
+
+.btn {
+    background-color: #007bff;
+    position: absolute;
+    left:325px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+
