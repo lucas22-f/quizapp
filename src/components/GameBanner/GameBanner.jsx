@@ -31,10 +31,10 @@ const GameBanner = () => {
 
                 <div className="image-band">
 
-                    <img src="/public/assets/lol.png" onClick={() => setear('lol')} alt="lol" />
-                    <img src="/public/assets/valo.png" onClick={() => setear('valorant')} alt="valorant" />
-                    <img src="/public/assets/cs.png" onClick={() => setear('cs2')} alt="cs2" />
-                    <img src="/public/assets/fornite.png" onClick={() => setear('fornite')} alt="fortnite" />
+                    <img src="../assets/lol.png" onClick={() => setear('lol')} alt="lol" />
+                    <img src="../assets/valo.png" onClick={() => setear('valorant')} alt="valorant" />
+                    <img src="../assets/cs.png" onClick={() => setear('cs2')} alt="cs2" />
+                    <img src="../assets/fornite.png" onClick={() => setear('fornite')} alt="fortnite" />
 
                 </div>
 
