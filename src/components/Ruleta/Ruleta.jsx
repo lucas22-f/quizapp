@@ -14,13 +14,13 @@ function Ruleta() {
   
     <div className='ruletaContainer'>
         <div className='ruleta' style={{
-          backgroundImage: `url(../../src/assets/ruleta.png)`,
+          backgroundImage: `url(../assets/ruleta.png)`,
           transform: `rotate(${rotation}deg)`,
           transition: "6s cubic-bezier(0.2,0.8,0.7,0.99)"}}
           ></div>
 
         <div className="flecha">
-          <img src="../src/assets/flechawbg.png" alt="flecha" />
+          <img src="../assets/flechawbg.png" alt="flecha" />
         </div>
         <button className="btn" onClick={girar}>Girar</button>
     </div>
