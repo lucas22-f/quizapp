@@ -1,11 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap');
 .ruletaContainer{
     position: relative;
-    margin: 10px auto 0;
+    margin: 10px auto ;
     text-align: center;
     width: 720px;
-    height: 80vh;
-    margin-bottom: 20px;
+    margin-bottom: 113px;
 }
 
 .ruleta{
@@ -16,35 +15,30 @@
     margin: 0 auto 15px;
 }
 
-.flecha{
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 100px;
-    bottom: 660px;
-}
-
 .flecha img{
-    width: 100px;
+    width: 80px;
     height: auto;
 }
 
 .btn {
     background-color: #007bff;
-    position: absolute;
-    left:325px;
-    color: #fff;
+    font-family: 'Gaegu', sans-serif;
+    color: #011f40;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 4px;
-    
+    width: 80px;
+    height: 80px;
+    font-size: 25px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: absolute;
+    top: 365px;
+    right: 320px;
+    z-index: 1;
     cursor: pointer;
 }
 
 .btn:hover {
-    background-color: #0056b3;
+    background-color: #d3d4d6;
 }
 
 .btn:focus {
@@ -52,3 +46,29 @@
 }
 
 
+@media screen and (max-width: 768px){
+    .ruleta{
+        width: 280px;
+        height: 280px;
+        margin: 0;
+    }
+    .ruletaContainer{
+        width: 280px;
+    }
+    .flecha img{
+        width: 50px;
+    }
+    .btn{
+        top: 160px;
+        right: 110px;
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        
+        
+        
+    }
+    
+}

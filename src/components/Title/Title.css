@@ -34,18 +34,29 @@
     padding: 0.1px;
 }
 .introimg{
-    max-width: 20%;
-    max-height: 20%;
-    margin: 2%;
-    padding: 2%;
+    width: 100%;
     object-fit: cover;
     transition: all 500ms;
+   
 }
 .intro{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 400px;
     
 }
-    
 
+@media screen and (max-width: 768px){
+    .mainTitle{
+        font-size: 20px;
+    }
+    .subTitle{
+        font-size: 20px;
+    }
+    .desc{
+        font-size: 20px;
+    }
+    
+    
+}

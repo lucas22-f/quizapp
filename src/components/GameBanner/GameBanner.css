@@ -1,10 +1,12 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&family=Sono:wght@200&display=swap');
 .image-band {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    height: 100%;
+    height: auto;
     background-color: #272727;
     box-shadow: rgb(33, 38, 42) 0px 3px 7px 3px;
     border-radius: 5px;
@@ -27,6 +29,27 @@
     cursor: pointer;
 }
 
+.button {
+    display: inline-block;
+    padding: 20px;
+    line-height: 2px;
+    font-family: 'Gaegu', sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(37, 37, 37);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 3%;
+    cursor: pointer;
+    transition: background-color 300ms ease-in-out;
+}
+
+.button:hover {
+    background-color: #00bce1;
+    color: #ff00cc;
+}
+
 .ruleta-enter {
     opacity: 0;
   }
@@ -43,4 +66,13 @@
 .ruleta-exit-active {
     opacity: 0;
     transition: opacity 500ms ease-in-out;
+}
+.desc{
+    text-align: center;
+    font-family: 'Averia Gruesa Libre', system-ui;
+    font-family: 'Sono', monospace;
+    font-size: 24px;
+    color: rgb(112, 207, 255);
+    margin: 4px;
+    padding: 0.1px;
 }
